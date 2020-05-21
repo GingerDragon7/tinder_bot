@@ -1,6 +1,8 @@
 # tinder_bot
 A tinder bot in javascipt that let's you automate swiping until you’re finished with all the profiles.
 
+[![](https://blog.photofeeler.com/wp-content/uploads/2017/12/if-you-swipe-right-on-tinder-do-they-know.jpg)]
+
 
 # Instructions for installing puppeteer
 
