@@ -22,6 +22,13 @@ const prompts = require("prompts");
   await page.type('[name="phone_number"]', "998880880");
   await page.keyboard.press("Enter");
 
+  var currentdate = new Date();
+  var datetime = "Last Sync: " + currentdate.getDay() + "/" + currentdate.getMonth() 
++ "/" + currentdate.getFullYear() + " @ " 
++ currentdate.getHours() + ":" 
++ currentdate.getMinutes() + ":" + currentdate.getSeconds();
+  
+  
   const otp = await prompts({
     type: "text",
     name: "value",
